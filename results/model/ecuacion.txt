@@ -1,0 +1,7 @@
+AGC (Mg C/ha) = 57.9965 * h_p99 + -25.3832 * rumple + 2.8661
+
+Donde:
+  h_p99  = percentil 99 de altura normalizada de vegetacion (m)
+  rumple = ratio superficie real dosel / area proyectada (adimensional)
+
+Metricas LOO: R2=0.5435 RMSE=11.4092 Mg C/ha r=0.7378 n=48

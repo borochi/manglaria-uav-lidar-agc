@@ -1,0 +1,39 @@
+{
+  "nombre": "modelo_optimo_lineal",
+  "tipo": "LinearRegression",
+  "features": [
+    "h_p99",
+    "rumple"
+  ],
+  "n_features": 2,
+  "coeficientes": {
+    "h_p99": 57.996528,
+    "rumple": -25.383161
+  },
+  "intercepto": 2.866092,
+  "metricas_LOO": {
+    "R2": 0.5435,
+    "RMSE": 11.4092,
+    "MAE": 8.9305,
+    "r": 0.7378,
+    "bias": -0.1012,
+    "n": 48
+  },
+  "dataset": "Nayarit_Marismas_Nacionales",
+  "n_parcelas": 26,
+  "n_registros": 48,
+  "epocas": [
+    "secas_2023",
+    "lluvias_2023",
+    "secas_2024",
+    "lluvias_2024"
+  ],
+  "especies": [
+    "Rhizophora mangle",
+    "Avicennia germinans",
+    "Laguncularia racemosa"
+  ],
+  "unidad_AGC": "Mg C / ha",
+  "notas": "Sitio afectado por huracan oct-2022. Validar en sitios sin disturbio antes de extrapolar.",
+  "version": "1.0"
+}

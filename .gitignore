@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+
+# Data pesada (no subir a GitHub)
+*.las
+*.laz
+*.tif
+*.tiff
+*.h5
+*.keras
+
+# Modelos entrenados (grandes)
+Nayarit/modelos/*/modelo_keras/
+Nayarit/modelos/*/modelo.keras
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
