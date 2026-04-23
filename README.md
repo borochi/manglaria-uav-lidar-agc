@@ -147,8 +147,8 @@ If you use this code or data, please cite:
   title   = {Less is more: two UAV-LiDAR metrics outperform complex machine
              learning algorithms for aboveground carbon estimation in
              hurricane-disturbed mangroves},
-  author  = {Troche-Souza, Carlos and others},
-  journal = {International Journal of Applied Earth Observation and Geoinformation},
+  author  = {Troche-Souza, C., E. Villeda-Chávez, and S. Velázquez-Salazar},
+  journal = {International Journal of Remote Sensing},
   year    = {2026},
   note    = {Submitted}
 }
